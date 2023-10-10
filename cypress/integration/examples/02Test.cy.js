@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 describe("Testowanie google", () => {
   beforeEach(() => {
-    cy.visit("/");
+    cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/");
   });
   it("Should render valid inital number", () => {
     //
